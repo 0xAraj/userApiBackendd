@@ -1,10 +1,12 @@
 package com.ashish.backend.entity;
 
+import jakarta.persistence.Table;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 
 @Entity
+@Table(name = "newUser_ms")
 public class User {
 
     @Id
